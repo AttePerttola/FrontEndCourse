@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "name": "frontendcourse",
+  "description": "Portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AttePerttola/FrontEndCourse.git"
+  },
+  "author": "Atte Perttola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AttePerttola/FrontEndCourse/issues"
+  },
+  "homepage": "https://github.com/AttePerttola/FrontEndCourse#readme"
+}

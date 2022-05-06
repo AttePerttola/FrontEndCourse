@@ -1,14 +1,16 @@
 {
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "node-sass": "^7.0.1"
   },
   "name": "frontendcourse",
   "description": "Portfolio",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "homepage":"https://AttePerttola.github.io/FrontEndCourse",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive"
+    "sass": "node-sass -w scss/ -o dist/css --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AttePerttola/FrontEndCourse/issues"
-  },
-  "homepage": "https://github.com/AttePerttola/FrontEndCourse#readme"
+  }
+  
 }

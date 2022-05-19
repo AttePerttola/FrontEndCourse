@@ -76,4 +76,12 @@
   .projects {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment: scroll;
+  }
+
+  .ptext {
+    font-size: 20px;
+  }
 }

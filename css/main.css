@@ -314,4 +314,11 @@ main {
   .pimg1, .pimg2, .pimg3 {
     background-attachment: scroll; }
   .ptext {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .section {
+    text-align: center;
+    padding: 30px 60px; }
+  .ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 15px; } }
